@@ -4,11 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanConverterTest {
 
-    public String toRoman(int num){
-        if(num == 1){
-            return "I";
+    private String toRoman(int num){
+        return null;
         }
-
 
     @Test
     void shouldConvert1ToI(){
